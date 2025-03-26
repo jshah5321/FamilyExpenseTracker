@@ -1,15 +1,23 @@
+# Android & Kotlin Specific
 *.iml
 .gradle
+*.gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/
+/captures/
 .DS_Store
-/build
-/captures
+/build/
 .externalNativeBuild
 .cxx
 local.properties
+
+# Firebase & Google Services
+app/google-services.json
+app/src/debug/google-services.json
+app/src/release/google-services.json
+*.keystore
+
+# Version Control & Logs
+*.log
+crashlytics.properties
+
