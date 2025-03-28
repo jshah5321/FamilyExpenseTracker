@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -66,4 +67,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //firebase
+    /*
+    Here "platform" ensures that all Firebase dependencies automatically use versions specified in the BOM.
+    BOM is : set of Firebase library versions that are tested together to avoid version conflicts.
+     */
+    implementation(libs.firebase.bom)
+
 }

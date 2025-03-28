@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161241182681",
+    "project_id": "familyexpensetracker-fabde",
+    "storage_bucket": "familyexpensetracker-fabde.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161241182681:android:d8d1e11bc24f88722c29c8",
+        "android_client_info": {
+          "package_name": "com.familyexpensetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Hv_D-Kw-ByVKodZR2QYghJ00WtdnjMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
