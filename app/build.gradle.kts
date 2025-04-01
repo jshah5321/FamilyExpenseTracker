@@ -73,6 +73,9 @@ dependencies {
     Here "platform" ensures that all Firebase dependencies automatically use versions specified in the BOM.
     BOM is : set of Firebase library versions that are tested together to avoid version conflicts.
      */
-    implementation(libs.firebase.bom)
+    implementation (platform("com.google.firebase:firebase-bom:32.7.0")) // Update to latest
+    implementation ("com.google.firebase:firebase-auth-ktx")
+
+
 
 }
